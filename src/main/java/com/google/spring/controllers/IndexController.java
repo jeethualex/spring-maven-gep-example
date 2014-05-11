@@ -13,7 +13,7 @@ public class IndexController extends AbstractController{
 		HttpServletResponse response) throws Exception {
  
 		ModelAndView model = new ModelAndView("HelloWorldPage");
-		model.addObject("msg", "hello Jeetu");
+		model.addObject("msg", "hello Jeetu Alex !!");
  
 		return model;
 	}
